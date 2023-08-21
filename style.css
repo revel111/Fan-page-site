@@ -1,0 +1,238 @@
+body{
+      background-color: #b6cbe8;
+      background-image: url('images/skull.png');
+      animation: skull 10s linear infinite;
+      font-size: 19px;
+    }
+    @keyframes skull {
+      from{
+        background-position-x: 0px;
+      }
+      to{
+        background-position-x: 500px;
+      }
+    }
+    .anim{
+      background-color:#FF0000;
+      width: 30vw;
+      color: #fff;
+      animation: myAnim 5s linear alternate infinite;
+      border-radius: 25px
+    }
+    @keyframes myAnim{
+      from{
+        margin-left: 0px;
+      }
+      to{
+        margin-left: 56%;
+      }
+    }
+    img {
+    border: 3px solid #FF0000;
+    border-radius: 20px;
+    }
+    .anim:hover{
+      color: black;
+    }
+    .page {
+    border: 3px solid #ccc;
+    max-width: 1300px;
+    margin: 20px auto;
+    background-color: #fff;
+    }
+    .header {
+    padding: 20px;
+    background-color: #121212;
+    }
+    .header-title {
+    margin: 0;
+    font-size: 24px;
+    color: #FF0000;
+    text-align: center;
+    }
+    .header-title:hover{
+    color: #eee;
+    }
+    .nav {
+    color: 
+    background-color: white;
+    text-align: center;
+    }
+    .nav-link {
+    font-family: Calibri;
+    display: inline-block;
+    padding: 8px 12px;
+    margin: 0;
+    text-decoration: none;
+    font-size: 25px;
+    color: #FF0000;
+    }
+    .content-title {
+    padding-left: 20px;
+    margin: 0px;
+    font-size: 30px;
+    color: black;
+    margin-bottom: 15px;
+    }
+    .content-title:hover {
+    color: #FF0000;
+    }
+    hr {
+    border: none;
+    color: red;
+    background-color: red;
+    height: 3px;
+   }
+   a {
+    position: relative;
+    color: #FF0000;
+    cursor: pointer;
+    line-height: 1;
+    text-decoration: none;
+    }
+    a:after {
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: black;
+    content: "";
+    transition: width 0.3s ease-out; 
+    }
+    a:hover:after,
+    a:focus:after {
+    width: 100%;
+    }
+    main
+    {
+      background-color: white;
+      font-size: 19px;
+      padding: 40px;
+    }
+    footer
+    {
+      height: 140px;
+      background-color: #ddd;
+    }
+    section
+    {
+      width: 100%;
+      margin: 10px 0 30px 0;
+
+    }
+    section:nth-child(3)
+    {
+      width: 100%;
+      margin: 60px 0 30px 0;
+      min-height: 300px;
+    }
+    section img
+    {
+      float: right;
+      transition: 1s;
+      background-color: black;
+      width: 300px;
+      margin: 0 20px 10px 0;
+    }
+    
+    section img:hover{
+      transform: scale(1.07);
+    }
+    .yt
+    {
+      background-size: 50px;
+      width:50px; 
+      height:50px;
+    }
+    .social{
+      margin: 10px;
+    }
+    .inst
+    {
+      background-size: 50px;
+      width:50px; 
+      height:50px;
+    }
+    .hhh{
+      display: inline-block;
+      height: 50px;
+      width: 50px;
+      background-size: 100%;
+      background-image: url("images/youtube.png");
+      background-position: center;
+      background-repeat: no-repeat; 
+    }
+    .h{
+      display: inline-block;
+      height: 50px;
+      width: 50px;
+      background-size: 100%;
+      background-image: url("images/insta.png");
+      background-position: center;
+      background-repeat: no-repeat; 
+    }
+    .hh{
+      display: inline-block;
+      height: 50px;
+      width: 50px;
+      background-size: 100%;
+      background-image: url("images/sound.png");
+      background-position: center;
+      background-repeat: no-repeat; 
+      border-radius:100px; 
+    }
+    .social1{
+      margin: 10px;
+    }
+    .social2{
+      margin: 10px;
+    }
+    .socials{
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      align-items: flex-end;
+      width: 90%;
+    }
+    .sound{
+      background-size: 50px;
+      width:50px; 
+      height:50px;
+    }
+    .content {
+    text-indent: 20px;
+    }
+    .content-text {
+    padding-left: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    text-indent: 20px;
+    }
+    .link-to-main {
+    display: inline-block;
+    padding: 8px 12px;
+    margin: 0;
+    text-decoration: none;
+    color: #ddd;
+    }
+    .link-to-main:hover{
+      color: #FF0000;
+    }
+
+    @media(max-width: 1300px){
+      .page{
+        max-width: 970px;
+      }
+    }
+    @media(max-width: 992px ){
+      .page{
+          max-width: 750px;
+      }
+    }
+
+    @media(max-width: 767px){
+      .page{
+          max-width: none;
+      }
+    }
